@@ -77,7 +77,11 @@
 				</select>
 			</div>
 
-			<input type="submit" class="js-add-work" value="Ajouter le projet">
+			<input type="submit" class="js-add-work" value="Ajouter le projet" onchange="previewImage()">
+
+			<script>
+				function previewImage(){console.log('okok')}
+			</script>
 		</form>
 	</div>
 </aside>
